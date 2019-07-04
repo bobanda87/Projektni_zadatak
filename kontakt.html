@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Maja">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Maja">
+    <title>LEMON | Kontakt</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="img/favicon.ico">
+</head>
+
+<body>
+    <div class="menu-main">
+        <img src="img/logo.png" class="logo-main" />
+        <nav>
+            <ul class="navigation">
+                <li>
+                    <a class="nav-link" href="index.html">Naslovna</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="o-kompaniji.html">O kompaniji</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="usluge.html">Usluge</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="o-nama.html">O nama</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="karijere.html">Karijere</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="kontakt.html">Kontakt</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <section id="map" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nasa <span>lokacija</span></h2>
+                <hr class="lines">
+                <p class="section-subtitle">Posetite nas na lokaciji Ruzveltova 4.</p>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-md-10">
+                    <div class="mapouter"><div class="gmap_canvas"><iframe width="800" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=ruzveltova%204&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt" class="section">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-9">
+                    <div class="kontakt-blok">
+                        <div class="section-header">
+                            <h2 class="section-title">kontakt <span>Us</span></h2>
+                            <hr class="lines">
+                        </div>
+                        <form id="kontaktForm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Your Email" id="email" class="form-control" name="name">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" placeholder="Your Message" rows="11" required></textarea>
+                                    </div>
+                                    <div class="submit-button text-center">
+                                        <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- general footer -->
+        <div class="container-fluid global-footer center">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-column footer-column-1">
+                        <h5>adresa</h5>
+                        <p>Ruzveltova 4</p>
+                        <p>Beograd, Srbija</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-column footer-column-2">
+                        <h5>pratite nas</h5>
+                        <ul class="social-nav">
+                            <a href="#"><li class="fb"></li></a>
+                           <a href="#"> <li class="twitter"></li></a>
+                            <a href="#"><li class="yt"></li></a>
+                           <a href="#"> <li class="instagram"></li></a>
+                           <a href="#"> <li class="linkedin"></li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-column footer-column-3">
+                        <h5>kontaktirajte nas</h5>
+                        <p>lemonwebdevelopment@lemon.com</p>
+                        <p>+381601231234</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="site-info">
+                        <p>All copyrights reserved &copy; 2019 LEMON</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
